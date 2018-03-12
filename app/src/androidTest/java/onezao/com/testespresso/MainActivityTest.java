@@ -39,6 +39,7 @@ public class MainActivityTest {
     //Espresso和UiAutomator都需要的方法
     @Test
     public void espressoAndUiAutomator() {
+        //  Espresso  mixed  with  UiAutomator2.0
         EspressoTest.espressoTest();
 
         //Loan2.0
