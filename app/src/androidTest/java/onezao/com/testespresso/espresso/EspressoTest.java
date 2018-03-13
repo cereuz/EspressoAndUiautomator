@@ -24,6 +24,13 @@ public class EspressoTest {
             e.printStackTrace();
         }
         onView(withId(R.id.btn_test_btn2)).perform(click());
-        onView(withText("Hello world!")).check(ViewAssertions.matches(isDisplayed()));
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        onView(withId(R.id.btn_second_show)).perform(click());
+
+        onView(withText("TestEspresso")).check(ViewAssertions.matches(isDisplayed()));
     }
 }

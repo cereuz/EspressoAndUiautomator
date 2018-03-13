@@ -2,8 +2,6 @@ package onezao.com.testespresso;
 
 import android.app.Instrumentation;
 import android.content.Context;
-import android.support.test.espresso.Espresso;
-import android.support.test.espresso.assertion.ViewAssertions;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.uiautomator.UiDevice;
 

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TestEspresso</string>
+    <string name="second">我是第二个页面，你好！</string>
+    <string name="second_btn">我是第二个页面的按钮，你好！</string>
 </resources>
